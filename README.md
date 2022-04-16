@@ -1,4 +1,4 @@
-# Cryptocurrency Dataset
+# Cryptocurrency Data Science Project
 ## _Ahmed Elhadidy - 202101774_
 
 [https://github.com/Hadidy7/CryptocurrencyDataHadoop]
