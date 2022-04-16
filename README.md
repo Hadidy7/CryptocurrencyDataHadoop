@@ -47,12 +47,12 @@ root@0712a6a1ba04:~# cd /CryptoTweets
 
 Execute CryptoTweets_table.sql to create a new database that has a table in Hive
 ```sh
-root@dc86b2b9e566:/CryptoTweets# hive -f CryptoTweets_table.hql
+root@0712a6a1ba04:/CryptoTweets# hive -f CryptoTweets_table.hql
 ```
 
 Add the data from CryptoTweets.csv file to the Hive table in the new database
 ```sh
-root@dc86b2b9e566:/CryptoTweets# hadoop fs -put CryptoTweets.csv hdfs://namenode:8020/user/hive/warehouse/testdb.db/CryptoTweets
+root@0712a6a1ba04:/CryptoTweets# hadoop fs -put CryptoTweets.csv hdfs://namenode:8020/user/hive/warehouse/testdb.db/CryptoTweets
 ```
 
 ## License
